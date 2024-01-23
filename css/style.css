@@ -51,20 +51,32 @@ p {
   margin: 0;
   font-size: 36px;
 }
-.about-section {
+.content-container {
   padding: 80px 20px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
+  text-align: center;
   font-family: var(--heading-font-family);
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+.content p {
+  margin: 0;
+  font-size: 14px;
 }
 
 .btn-color {
@@ -109,11 +121,11 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
-  .about-section a {
+  .content-container a {
     margin-bottom: 35px;
   }
 }
