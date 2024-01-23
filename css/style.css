@@ -51,6 +51,21 @@ p {
   margin: 0;
   font-size: 36px;
 }
+.about-section {
+  padding: 80px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 
 .btn-color {
   background: var(--color-theme);
@@ -93,5 +108,12 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section a {
+    margin-bottom: 35px;
   }
 }
