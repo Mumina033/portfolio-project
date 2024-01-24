@@ -11,11 +11,48 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/5cc634219c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Meet Mumina Mohamed, a skilled front-end developer based in Massachusetts. Explore her coding journey, projects, and expertise. Learn more about Mumina and her passion for creating innovative web solutions."
+    />
+    <title>About - Mumina Mohamed</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Homepage">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/893/original/shecodes_logo.png?1706059832"
+            class="logo d-none d-md-block"
+            alt="logo" />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/894/original/shecodes_logo.png?1706059903
+"
+            class="logo d-block d-md-none"
+            alt="logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="index.html"> Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Mumina"> About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Mumina's work"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Mumina"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -34,7 +71,7 @@
         <div class="col-lg-6">
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/851/original/woman-coding.jpeg?1706040144"
-            alt="portrait"
+            alt="woman coding"
             class="mb-4"
           />
         </div>
@@ -42,5 +79,52 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-color" title="Contact"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:mumina.mohamed033@gmail.com"
+          class="email-link"
+          title="Email"
+          >mumina.mohamed033@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/mumina033"
+          title="Github"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i> </a
+        ><a
+          href="https://www.instagram.com/mumina.codes"
+          title="Instagram"
+          target="_blank"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.x.com/mumina033" title="X" target="_blank">
+          <i class="fab fa-x"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Mumina, and it is
+        <a href="https://github.com/Mumina033/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

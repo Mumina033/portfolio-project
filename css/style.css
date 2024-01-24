@@ -40,7 +40,7 @@ nav li.active a {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 h1,
 h2,
@@ -60,7 +60,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -176,13 +176,13 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
-
   .hero {
     padding: 80px 20px;
   }
+
   .row {
     justify-content: center;
   }
