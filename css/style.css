@@ -125,6 +125,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.custom-btn {
+  margin-left: 110px;
+}
 
 .project-description {
   padding: 120px 60px;
@@ -169,6 +172,19 @@ footer .social-links a:hover {
   nav a {
     font-size: 12px;
   }
+  body.about-page {
+    font-size: 14px;
+  }
+  .hide {
+    display: none;
+  }
+  .email-link {
+    font-size: 14px;
+  }
+
+  footer.container {
+    display: hidden;
+  }
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -195,7 +211,11 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+
   .content-container a {
     margin-bottom: 35px;
+  }
+  .custom-btn {
+    margin-left: 1px;
   }
 }
